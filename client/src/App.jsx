@@ -4,7 +4,7 @@ import Home from './pages/Home'
 import Auth from './pages/Auth'
 import { useDispatch } from 'react-redux'
 import axios from 'axios'
-import { setUserData } from './redux/userSlice'
+import { setUserData } from "./redux/userslice.js";
 import Interview from './pages/Interview'
 import InterviewReport from './pages/InterviewReport'
 import History from './pages/History'
