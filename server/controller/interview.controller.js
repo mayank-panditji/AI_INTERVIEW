@@ -4,7 +4,7 @@ import * as pdfjsLib from "pdfjs-dist/legacy/build/pdf.mjs"
 import { askAi } from "../services/openRouter.servics.js"
 import User from "../models/user.model.js"
 import Interview from "../models/interview.model.js"
-import Payment from "../models/payment.model.js"
+import Payment from "../models/Payment.model.js"
 export const analyzeResume = async (req, res) => {
     try {
         if (!req.file) {
