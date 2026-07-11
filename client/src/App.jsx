@@ -10,7 +10,7 @@ import InterviewReport from './pages/InterviewReport'
 import History from './pages/History'
 import Pricing from './pages/Pricing'
 
-export const ServerUrl="http://localhost:8000"
+export const ServerUrl="https://ai-interview-backend-cjny.onrender.com"
 
 const App = () => {
 
